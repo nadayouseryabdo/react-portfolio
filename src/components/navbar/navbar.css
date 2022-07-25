@@ -1,0 +1,39 @@
+
+.navbar{
+    width: 80%;
+    height: 60px;
+    margin:auto;
+    padding:10px 20px;
+    display: flex;
+    background-color: blanchedalmond;
+    border-bottom: 0.25px solid rgb(84, 199, 74);
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 0 15px 0 15px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: rgb(38, 122, 30);
+}
+.navbar ul li:hover::after{
+    content:'';
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(38, 122, 30, 0.575);
+    position: absolute;
+    top: 30px;
+    right: 18px;
+}
